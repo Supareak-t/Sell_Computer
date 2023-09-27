@@ -1,0 +1,94 @@
+html {
+   margin: 0;
+   background: #161615;
+   max-width: 1920px;
+   font-family: 'The Impostor', sans-serif;
+}
+
+h1 {
+   margin: 30px;
+   color: #f4f4f4;
+   font-size: 20px;
+}
+
+
+.examples {
+   text-align: center;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+.image {
+   -webkit-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+}
+
+.image:hover {
+   -webkit-transform: scale(1.35);
+   transform: scale(1.35);
+   opacity: 0.9;
+}
+
+span.text-content {
+   color:#ffffff;
+   cursor: pointer;
+   display: table;
+   height: 150px;
+   left: 15px;
+   position: absolute;
+   top: 15px;
+   width: 280px;
+   opacity: 0;
+   
+}
+
+span.text-content span {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+   padding-top: 130px;
+}
+
+ul.img-list li {
+   display: inline-block;
+   margin: 0 1em 1em 0;
+   position: relative;
+   padding-top: 100px;
+   width: 280px;
+}
+
+ul.img-list li:hover span.text-content {
+   opacity: 1;
+   -webkit-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+}
+
+.sectionTitle {
+   padding-left: 37.5%;
+   padding-bottom: 7px;
+   border-bottom: 3px solid #ffffff;
+   margin-bottom: 20px;
+   
+}
+
+.image:hover {
+   -webkit-transform: scale(1.35);
+   transform: scale(1.35);
+   opacity: 0.9;
+}
+
+header {
+   width: 100%;
+   padding-left: 20px;
+   background: #000000;
+   color:#57ffdc;
+   height: 80px;
+   padding-top: 15px;
+   font-weight: 700;
+   font-size: 40px;
+}
+
+p {
+   margin: 10px;
+   padding-left: 593px;
+}

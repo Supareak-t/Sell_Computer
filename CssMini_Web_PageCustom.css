@@ -1,0 +1,101 @@
+body {
+  background: #161615;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+body.open {
+  overflow-y: hidden;
+}
+
+body .logo img {
+  height: 120px;
+  width: auto;
+  position: absolute;
+  padding-top: 60px;
+}
+
+.shop {
+  position: relative;
+  z-index: 5;
+}
+
+.shop__header {
+  color: #ffffff;
+  font-family: 'The Impostor', sans-serif;
+  box-sizing: border-box;
+  position: fixed;
+  background:#000000;
+  width: 100%;
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px #F05454;
+}
+
+.shop__products {
+  padding-top: 40px;
+}
+
+.shop__title {
+  display: block;
+  margin: 0;
+  float: left;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.shop__text {
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+.shop__text .button {
+  padding: 10px 15px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.products__item {
+  width: 290px;
+  margin-top: 100px;
+  font-family: 'Arial', sans-serif;
+}
+
+.product {
+  background: #FFF;
+  padding: 30px 15px;
+  margin: 0 20px 20px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product__title {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 0 15px 0;
+}
+
+.product__text {
+  margin: 0;
+}
+
+.button {
+  display: inline-block;
+  background: #39C;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFF;
+}
